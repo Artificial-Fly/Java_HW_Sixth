@@ -1,4 +1,4 @@
-package org.chat;
+package org.netology;
 
 public class Author {
     private String name;
