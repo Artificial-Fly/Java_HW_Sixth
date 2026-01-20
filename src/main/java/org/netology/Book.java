@@ -7,10 +7,10 @@ public class Book {
     Author author;
     int pages;
 
-    public Book(String title, int releaseYear, String authorName, String authorSurname, double authorRating, int pages) {
+    public Book(String title, int releaseYear, Author author, int pages) {
         this.title = title;
         this.releaseYear = releaseYear;
-        this.author = new Author(authorName, authorSurname, authorRating);
+        this.author = author;
         this.pages = pages;
     }
 
